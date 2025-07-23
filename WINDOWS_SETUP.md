@@ -4,16 +4,16 @@
 
 This guide provides step-by-step instructions to set up and run the PDF Outline Extractor application on Windows. The application extracts structured outlines (Title, H1, H2, H3 with page numbers) from PDF files and outputs valid JSON files.
 
-## 🎯 Features
+##  Features
 
-- ✅ Extract document titles and headings from PDF files
-- ✅ Generate structured JSON output with page numbers
-- ✅ Support for multiple PDF formats
-- ✅ Robust text extraction with proper spacing
-- ✅ Docker support for containerized deployment
-- ✅ Cross-platform compatibility
+-  Generate structured JSON output with page numbers
+-  Extract document titles and headings from PDF files
+-  Support for multiple PDF formats
+-  Robust text extraction with proper spacing
+-  Docker support for containerized deployment
+-  Cross-platform compatibility
 
-## 📋 System Requirements
+##  System Requirements
 
 ### Minimum Requirements
 - **Operating System**: Windows 10 (64-bit) or later
@@ -359,35 +359,7 @@ docker images
 docker ps
 ```
 
-## 🎯 Performance Tips
 
-1. **Use SSD storage** for better I/O performance
-2. **Close other applications** when processing large PDFs
-3. **Use Docker** for consistent environment
-4. **Monitor memory usage** for large documents
-5. **Batch process** multiple PDFs together
-
-## 📋 Checklist
-
-- [ ] Python 3.8+ installed and in PATH
-- [ ] Git installed (optional)
-- [ ] Project downloaded/cloned
-- [ ] Virtual environment created and activated
-- [ ] Dependencies installed
-- [ ] Test script runs successfully
-- [ ] Sample PDF processed correctly
-- [ ] Docker installed (optional)
-- [ ] Docker image built (optional)
-
-## 🚀 Next Steps
-
-After successful setup:
-1. Process your PDF files
-2. Review the generated JSON output
-3. Integrate with your applications
-4. Deploy to production if needed
-5. Customize extraction logic if required
 
 ---
 
-**Note**: This application is designed for the Adobe India Hackathon and follows all specified constraints including max 50 pages, 10 seconds per PDF, offline operation, CPU-only AMD64 support, and ≤200MB dependencies. 
