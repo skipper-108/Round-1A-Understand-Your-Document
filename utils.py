@@ -1,7 +1,3 @@
-"""
-PDF Outline Extractor - Core functionality using pdfminer.six
-Extracts structured outlines from PDF files using layout analysis.
-"""
 
 import json
 import time
