@@ -1,53 +1,59 @@
 # PDF Outline Extractor - Project Summary
+
 ## Adobe India Hackathon Round 1A
 
 ### 🎯 Project Overview
 
 A fully functional, Dockerized Python application that extracts structured outlines from PDF files using advanced layout analysis and heading heuristics. The application processes PDF files and outputs clean JSON with document titles and hierarchical outlines.
 
-### ✅ Requirements Fulfilled
-
 #### 📁 Folder Structure
+
 ```
 pdf_outline_extractor/
-├── Dockerfile              ✅ Docker configuration (AMD64)
-├── main.py                 ✅ Entry point script
-├── utils.py                ✅ Core extraction logic
-├── requirements.txt        ✅ Dependencies (pdfminer.six==20221105)
-├── README.md              ✅ Documentation with Docker instructions
-├── input/                 ✅ PDF input directory
-└── output/                ✅ JSON output directory
+├── Dockerfile
+├── main.py
+├── utils.py
+├── requirements.txt
+├── README.md
+├── input/
+└── output/
 ```
 
 #### 🔧 Functionality
-- ✅ Accepts all `.pdf` files from `/app/input` directory
-- ✅ Extracts document title (first detected H1 or topmost heading)
-- ✅ Extracts structured outline of headings (H1, H2, H3)
-- ✅ Provides page numbers for each heading
-- ✅ Writes `{filename}.json` files to `/app/output`
-- ✅ Follows exact JSON format specification
+
+- Accepts all `.pdf` files from `/app/input` directory
+- Extracts document title (first detected H1 or topmost heading)
+- Extracts structured outline of headings (H1, H2, H3)
+- Provides page numbers for each heading
+- Writes `{filename}.json` files to `/app/output`
+- Follows exact JSON format specification
 
 ### 🏗️ Technical Implementation
 
 #### Core Technology Stack
+
 - **Python 3.10**: Base runtime environment
 - **pdfminer.six==20221105**: Advanced PDF layout parsing
 - **Docker**: Containerization with AMD64 support
 
 #### Heading Detection Algorithm
+
 The application uses sophisticated heuristics based on:
 
 1. **Font Analysis**:
+
    - Font size ratios (normalized against document maximum)
    - Bold/italic style detection from font names
    - Relative font size comparisons
 
 2. **Layout Analysis**:
+
    - Position on page (top/middle/bottom)
    - Text positioning and spacing
    - Page layout structure
 
 3. **Content Patterns**:
+
    - Numbered lists (1., 2., 3., etc.)
    - Chapter markers (Chapter, Section, Part)
    - Bullet points (•, ●, -, ○)
@@ -74,27 +80,30 @@ The application uses sophisticated heuristics based on:
 ### 🚀 Docker Deployment
 
 #### Build Command
+
 ```bash
 docker build --platform linux/amd64 -t outline-extractor .
 ```
 
 #### Run Command
+
 ```bash
 docker run --rm -v $(pwd)/input:/app/input -v $(pwd)/output:/app/output --network none outline-extractor
 ```
 
 ### ⚡ Performance Constraints
 
-- ✅ **Max PDF size**: 50 pages (enforced)
-- ✅ **Max execution time**: 10 seconds per PDF (enforced)
-- ✅ **Offline operation**: No internet required
-- ✅ **CPU only**: AMD64 architecture support
-- ✅ **Size limit**: Model + dependencies ≤ 200MB
-- ✅ **Generic logic**: No hardcoded values or file-specific rules
+- **Max PDF size**: 50 pages (enforced)
+- **Max execution time**: 10 seconds per PDF (enforced)
+- **Offline operation**: No internet required
+- **CPU only**: AMD64 architecture support
+- **Size limit**: Model + dependencies ≤ 200MB
+- **Generic logic**: No hardcoded values or file-specific rules
 
 ### 🔍 Key Features
 
 #### Robust Error Handling
+
 - Graceful handling of corrupted PDFs
 - Timeout protection (10-second limit)
 - Page limit enforcement (50 pages)
@@ -102,12 +111,14 @@ docker run --rm -v $(pwd)/input:/app/input -v $(pwd)/output:/app/output --networ
 - Comprehensive error reporting
 
 #### Advanced Layout Analysis
+
 - Precise text positioning extraction
 - Font information analysis
 - Page structure understanding
 - Multi-page document support
 
 #### Intelligent Heading Detection
+
 - Multi-factor classification algorithm
 - Relative size normalization
 - Pattern recognition
@@ -116,14 +127,16 @@ docker run --rm -v $(pwd)/input:/app/input -v $(pwd)/output:/app/output --networ
 ### 🧪 Testing & Validation
 
 #### Test Results
-- ✅ Application structure test passed
-- ✅ Dependency installation successful
-- ✅ PDF processing pipeline working
-- ✅ JSON output format correct
-- ✅ Docker configuration valid
-- ✅ Error handling functional
+
+- Application structure test passed
+- Dependency installation successful
+- PDF processing pipeline working
+- JSON output format correct
+- Docker configuration valid
+- Error handling functional
 
 #### Local Testing
+
 ```bash
 # Test application structure
 python3 test_local.py
@@ -142,17 +155,13 @@ ls -la output/
 - **Inline code documentation**: Detailed function documentation
 - **Type hints**: Full type annotation support
 
-### 🎯 Hackathon Submission Ready
-
-The project is **100% complete** and ready for Adobe India Hackathon Round 1A submission:
-
-1. **✅ Complete Functionality**: All requirements implemented
-2. **✅ Technical Excellence**: Advanced PDF parsing with layout analysis
-3. **✅ Docker Ready**: Containerized for easy deployment
-4. **✅ Performance Optimized**: Meets all constraint requirements
-5. **✅ Well Documented**: Comprehensive guides and examples
-6. **✅ Error Resilient**: Robust error handling and validation
-7. **✅ Generic Logic**: Works with any PDF structure
+1.  Complete Functionality\*\*: All requirements implemented
+2.  Technical Excellence\*\*: Advanced PDF parsing with layout analysis
+3.  Docker Ready\*\*: Containerized for easy deployment
+4.  Performance Optimized\*\*: Meets all constraint requirements
+5.  Well Documented\*\*: Comprehensive guides and examples
+6.  Error Resilient\*\*: Robust error handling and validation
+7.  Generic Logic\*\*: Works with any PDF structure
 
 ### 🚀 Quick Start
 
@@ -181,9 +190,3 @@ cat output/your_document.json
 - **Docker Native**: Optimized containerization for deployment
 
 ---
-
-**Status**: ✅ **COMPLETE AND READY FOR SUBMISSION**
-**Architecture**: ✅ **AMD64 Docker Container**
-**Performance**: ✅ **All Constraints Met**
-**Documentation**: ✅ **Comprehensive**
-**Testing**: ✅ **Validated and Working** 

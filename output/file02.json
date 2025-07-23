@@ -1,0 +1,535 @@
+{
+  "title": "Overview Foundation Level Extensions Version 1",
+  "outline": [
+    {
+      "level": "H1",
+      "text": "Overview Foundation Level Extensions Version 1",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "0 International Software Testing Qualifications Board Copyright Notice This document may be copied in its entirety, or extracts made, if the source is acknowledged",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "Overview Foundation Level Extension – Agile Tester International Software Testing Qualifications Board Copyright © International Software Testing Qualifications Board (hereinafter called ISTQB®)",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "Version 2014 Page 2 of 12 May 31, 2014 © International Software Testing Qualifications Board",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "Overview Foundation Level Extension – Agile Tester International Software Testing Qualifications Board Revision History Version 0",
+      "page": 3
+    },
+    {
+      "level": "H1",
+      "text": "7 GA release for Agile Extension Version 2014 Page 3 of 12 May 31, 2014 © International Software Testing Qualifications Board",
+      "page": 3
+    },
+    {
+      "level": "H1",
+      "text": "Overview Foundation Level Extension – Agile Tester International Software Testing Qualifications Board Table of Contents Revision History",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "3 Table of Contents",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "Introduction to the Foundation Level Extensions",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "6 Introduction to Foundation Level Agile Tester Extension",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "1 Intended Audience 2",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "2 Career Paths for Testers Learning Objectives 2",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "3 Entry Requirements 2",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "4 Structure and Course Duration 2",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "5 Keeping It Current 2",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "7 7 7 8 8 9 3",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "Overview of the Foundation Level Extension – Agile Tester Syllabus",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "2 Content Business Outcomes",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "10 10 4",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "References",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "12 Trademarks 4",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "2 Documents and Web Sites",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "12 12 Version 2014 Page 4 of 12 May 31, 2014 © International Software Testing Qualifications Board",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "The Agile Extension team thanks the review team and the National Boards for their suggestions and input",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "Authors: Rex Black, Anders Claesson, Gerry Coleman, Bertrand Cornanguer, Istvan Forgacs, Alon Linetzki, Tilo Linz, Leo van der Aalst, Marie Walsh, and Stephan Weber",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "This document was formally approved for release by the General Assembly of the ISTQB® on May 31, 2014",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "Version 2014 Page 5 of 12 May 31, 2014 © International Software Testing Qualifications Board",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "Overview Foundation Level Extension – Agile Tester International Software Testing Qualifications Board 1",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "From time to time, ISTQB will update this document to reflect any additional extensions that shall be introduced for the Foundation Level, or to reflect major changes in existing ones",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "Publications of the updated document will be available on the ISTQB website",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "The ISTQB Foundation and Advanced Level syllabi have been defined and have been on the market for some time",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "New topics emerge due to technology and methodology changes in the market which often are brought into the ISTQB program as new Expert Level syllabi",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "However, not all topics are suited for the Expert Level",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "For this reason, the extension syllabi are established at the Foundation Level to expand the ISTQB program to incorporate new or updated knowledge",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "New extensions shall be discussed and introduced by the ISTQB periodically",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "Extensions may be established at the Advanced Level as well, but that is beyond the scope of this document",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "The Business Outcomes communicate what can be expected from a person who achieves a Foundation Level Extension Certification in a particular subject area (e",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": ", Agile Tester), and will outline the benefits for companies that are considering the development of specific testing skills at this level",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "Version 2014 Page 6 of 12 May 31, 2014 © International Software Testing Qualifications Board",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "Overview Foundation Level Extension – Agile Tester International Software Testing Qualifications Board 2",
+      "page": 7
+    },
+    {
+      "level": "H1",
+      "text": "Introduction to Foundation Level Agile Tester Extension The certification for Foundation Level Extension – Agile Tester is designed for professionals who are working within Agile environments",
+      "page": 7
+    },
+    {
+      "level": "H1",
+      "text": "1 Intended Audience The Foundation Level Extension – Agile Tester qualification is aimed at four main groups of professionals: 1",
+      "page": 7
+    },
+    {
+      "level": "H1",
+      "text": "Professionals who have achieved in-depth testing experience in traditional methods and would like to get an Agile Tester Certificate",
+      "page": 7
+    },
+    {
+      "level": "H1",
+      "text": "Junior professional testers who are just starting in the testing profession, have received the Foundation Level certificate, and would like to know more about the tester’s role in an Agile environment",
+      "page": 7
+    },
+    {
+      "level": "H1",
+      "text": "Professionals who are relatively new to testing and are required to implement test approaches, methods and techniques in their day to day job in Agile projects",
+      "page": 7
+    },
+    {
+      "level": "H1",
+      "text": "Professionals who are experienced in their role (including unit testing) and need more understanding and knowledge about how to perform and manage testing on all levels in Agile projects",
+      "page": 7
+    },
+    {
+      "level": "H1",
+      "text": "These professionals include people who are in roles such as testers, test analysts, test engineers, test consultants, test managers, user acceptance testers, and software developers",
+      "page": 7
+    },
+    {
+      "level": "H1",
+      "text": "2 Career Paths for Testers Building on the Foundation Level, the Agile Tester Extension supports the definition of career paths for professional testers",
+      "page": 7
+    },
+    {
+      "level": "H1",
+      "text": "People possessing an ISTQB Foundation Level Extension – Agile Tester certificate may use the Certified Tester Foundation Level acronym CTFL-AT",
+      "page": 7
+    },
+    {
+      "level": "H1",
+      "text": "3 Learning Objectives In general, the Foundation Level syllabus is examinable at a K 1 level, i",
+      "page": 7
+    },
+    {
+      "level": "H1",
+      "text": ", the candidate will recognize, remember and recall terms and concepts stated in the Foundation Level syllabus",
+      "page": 7
+    },
+    {
+      "level": "H1",
+      "text": "In addition, all Foundation Level syllabus learning objectives are examinable at the same K- level in an extension exam",
+      "page": 7
+    },
+    {
+      "level": "H1",
+      "text": "Version 2014 Page 7 of 12 May 31, 2014 © International Software Testing Qualifications Board",
+      "page": 7
+    },
+    {
+      "level": "H1",
+      "text": "The relevant learning objectives at K 1, K 2, and K 3 levels are provided at the beginning of each chapter within each particular extension syllabus",
+      "page": 8
+    },
+    {
+      "level": "H1",
+      "text": "4 Entry Requirements To be able to participate in a Foundation Level Extension – Agile Tester exam, candidates must have obtained the ISTQB Foundation Level certificate",
+      "page": 8
+    },
+    {
+      "level": "H1",
+      "text": "5 Structure and Course Duration The Foundation Level Extension – Agile Tester syllabus has no shared or common elements with the Foundation Level syllabus",
+      "page": 8
+    },
+    {
+      "level": "H1",
+      "text": "Version 2014 Page 8 of 12 May 31, 2014 © International Software Testing Qualifications Board",
+      "page": 8
+    },
+    {
+      "level": "H1",
+      "text": "Overview Foundation Level Extension – Agile Tester International Software Testing Qualifications Board 2",
+      "page": 9
+    },
+    {
+      "level": "H1",
+      "text": "6 Keeping It Current The software industry changes rapidly",
+      "page": 9
+    },
+    {
+      "level": "H1",
+      "text": "To deal with these changes and to provide the stakeholders with access to relevant and current information, the ISTQB working groups have created links on the www",
+      "page": 9
+    },
+    {
+      "level": "H1",
+      "text": "org web site which refer to supporting documents, changes to standards and new occurrences in the industry",
+      "page": 9
+    },
+    {
+      "level": "H1",
+      "text": "This information is not examinable under this syllabus",
+      "page": 9
+    },
+    {
+      "level": "H1",
+      "text": "Version 2014 Page 9 of 12 May 31, 2014 © International Software Testing Qualifications Board",
+      "page": 9
+    },
+    {
+      "level": "H1",
+      "text": "Overview Foundation Level Extension – Agile Tester International Software Testing Qualifications Board 3",
+      "page": 10
+    },
+    {
+      "level": "H1",
+      "text": "Overview of the Foundation Level Extension – Agile Tester Syllabus 3",
+      "page": 10
+    },
+    {
+      "level": "H1",
+      "text": "1 Business Outcomes This section lists the Business Outcomes expected of a candidate who has achieved the Foundation Level Extension – Agile Tester certification",
+      "page": 10
+    },
+    {
+      "level": "H1",
+      "text": "An Agile Tester can… AFM 1 Collaborate in a cross-functional Agile team being familiar with principles and basic practices of Agile software development",
+      "page": 10
+    },
+    {
+      "level": "H1",
+      "text": "AFM 2 Adapt existing testing experience and knowledge to Agile values and principles",
+      "page": 10
+    },
+    {
+      "level": "H1",
+      "text": "AFM 3 Support the Agile team in planning test-related activities",
+      "page": 10
+    },
+    {
+      "level": "H1",
+      "text": "AFM 4 Apply relevant methods and techniques for testing in an Agile project",
+      "page": 10
+    },
+    {
+      "level": "H1",
+      "text": "AFM 5 Assist the Agile team in test automation activities",
+      "page": 10
+    },
+    {
+      "level": "H1",
+      "text": "AFM 6 Assist business stakeholders in defining understandable and testable user stories, scenarios, requirements and acceptance criteria as appropriate",
+      "page": 10
+    },
+    {
+      "level": "H1",
+      "text": "AFM 7 Work and share information with other team members using effective communication styles and channels",
+      "page": 10
+    },
+    {
+      "level": "H1",
+      "text": "In general, a Certified Tester Foundation Level – Agile Tester is expected to have acquired the necessary skills to working effectively within an Agile team and environment",
+      "page": 10
+    },
+    {
+      "level": "H1",
+      "text": "2 Content Chapter 1: Agile Software Development  The tester should remember the basic concept of Agile software development based on the Agile Manifesto",
+      "page": 10
+    },
+    {
+      "level": "H1",
+      "text": " The tester should understand the advantages of the whole-team approach and the benefits of early and frequent feedback",
+      "page": 10
+    },
+    {
+      "level": "H1",
+      "text": " The tester should recall Agile software development approaches",
+      "page": 10
+    },
+    {
+      "level": "H1",
+      "text": " The tester should be able to write testable user stories in collaboration with developers and business representatives",
+      "page": 10
+    },
+    {
+      "level": "H1",
+      "text": " The tester should understand how retrospectives can be used as a mechanism for process improvement in Agile projects",
+      "page": 10
+    },
+    {
+      "level": "H1",
+      "text": " The tester should understand the use and purpose of continuous integration",
+      "page": 10
+    },
+    {
+      "level": "H1",
+      "text": " The tester should know the differences between iteration and release planning, and how a tester adds value in each of these activities",
+      "page": 10
+    },
+    {
+      "level": "H1",
+      "text": "Version 2014 Page 10 of 12 May 31, 2014 © International Software Testing Qualifications Board",
+      "page": 10
+    },
+    {
+      "level": "H1",
+      "text": " The tester should be able to describe how development and testing activities are integrated in Agile projects",
+      "page": 11
+    },
+    {
+      "level": "H1",
+      "text": " The tester should be able to describe the role of independent testing in Agile projects",
+      "page": 11
+    },
+    {
+      "level": "H1",
+      "text": " The tester should be able to describe the tools and techniques used to communicate the status of testing in an Agile project, including test progress and product quality",
+      "page": 11
+    },
+    {
+      "level": "H1",
+      "text": " The tester should be able to describe the process of evolving tests across multiple iterations and explain why test automation is important to manage regression risk in Agile projects",
+      "page": 11
+    },
+    {
+      "level": "H1",
+      "text": " The tester should understand the skills (people, domain, and testing) of a tester in an Agile team",
+      "page": 11
+    },
+    {
+      "level": "H1",
+      "text": " The tester should be able to understand the role of a tester within an Agile team",
+      "page": 11
+    },
+    {
+      "level": "H1",
+      "text": " The tester should be able to recall the concepts of the test pyramid",
+      "page": 11
+    },
+    {
+      "level": "H1",
+      "text": " The tester should be able to summarize the testing quadrants and their relationships with testing levels and testing types",
+      "page": 11
+    },
+    {
+      "level": "H1",
+      "text": " For a given Agile project, the tester should be able to work as a tester in a Scrum team",
+      "page": 11
+    },
+    {
+      "level": "H1",
+      "text": " The tester should be able to assess quality risks within an Agile project",
+      "page": 11
+    },
+    {
+      "level": "H1",
+      "text": " The tester should be able to estimate testing effort based on iteration content and quality risks",
+      "page": 11
+    },
+    {
+      "level": "H1",
+      "text": " The tester should be able to interpret relevant information to support testing activities",
+      "page": 11
+    },
+    {
+      "level": "H1",
+      "text": " The tester should be able to explain to business stakeholders how to define testable acceptance criteria",
+      "page": 11
+    },
+    {
+      "level": "H1",
+      "text": " Given a user story, the tester should be able to write acceptance test-driven development test cases",
+      "page": 11
+    },
+    {
+      "level": "H1",
+      "text": " For both functional and non-functional behavior, the tester should be able to write test cases using black box test design techniques based on given user stories",
+      "page": 11
+    },
+    {
+      "level": "H1",
+      "text": " The tester should be able to perform exploratory testing to support the testing of an Agile project",
+      "page": 11
+    },
+    {
+      "level": "H1",
+      "text": " The tester should be able to recall different tools available to testers according to their purpose and to activities in Agile projects",
+      "page": 11
+    },
+    {
+      "level": "H1",
+      "text": "Version 2014 Page 11 of 12 May 31, 2014 © International Software Testing Qualifications Board",
+      "page": 11
+    },
+    {
+      "level": "H1",
+      "text": "Overview Foundation Level Extension – Agile Tester International Software Testing Qualifications Board 4",
+      "page": 12
+    },
+    {
+      "level": "H1",
+      "text": "References 4",
+      "page": 12
+    },
+    {
+      "level": "H1",
+      "text": "1 Trademarks The following registered trademarks and service marks are used in this document: ISTQB® is a registered trademark of the International Software Testing Qualifications Board 4",
+      "page": 12
+    },
+    {
+      "level": "H1",
+      "text": "2 Documents and Web Sites Identifier [ISTQB-Web] Reference Web site of the International Software Testing Qualifications Board",
+      "page": 12
+    },
+    {
+      "level": "H1",
+      "text": "Refer to this website for the latest ISTQB Glossary and Syllabi",
+      "page": 12
+    },
+    {
+      "level": "H1",
+      "text": "org) Version 2014 Page 12 of 12 May 31, 2014 © International Software Testing Qualifications Board",
+      "page": 12
+    }
+  ]
+}
