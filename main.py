@@ -1,7 +1,7 @@
-#!/usr/bin/env python3
+
 """
 PDF Outline Extractor - Main Entry Point
-Iterates over PDF files and extracts structured outlines.
+
 """
 
 import json
